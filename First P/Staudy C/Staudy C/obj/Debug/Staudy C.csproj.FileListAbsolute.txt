@@ -1,0 +1,11 @@
+C:\Project С#\First P\Staudy C\Staudy C\bin\Debug\Staudy C.exe.config
+C:\Project С#\First P\Staudy C\Staudy C\bin\Debug\Staudy C.exe
+C:\Project С#\First P\Staudy C\Staudy C\bin\Debug\Staudy C.pdb
+C:\Project С#\First P\Staudy C\Staudy C\obj\Debug\Staudy C.csproj.AssemblyReference.cache
+C:\Project С#\First P\Staudy C\Staudy C\obj\Debug\Staudy C.csproj.SuggestedBindingRedirects.cache
+C:\Project С#\First P\Staudy C\Staudy C\obj\Debug\Staudy_C.Form1.resources
+C:\Project С#\First P\Staudy C\Staudy C\obj\Debug\Staudy_C.Properties.Resources.resources
+C:\Project С#\First P\Staudy C\Staudy C\obj\Debug\Staudy C.csproj.GenerateResource.cache
+C:\Project С#\First P\Staudy C\Staudy C\obj\Debug\Staudy C.csproj.CoreCompileInputs.cache
+C:\Project С#\First P\Staudy C\Staudy C\obj\Debug\Staudy C.exe
+C:\Project С#\First P\Staudy C\Staudy C\obj\Debug\Staudy C.pdb
