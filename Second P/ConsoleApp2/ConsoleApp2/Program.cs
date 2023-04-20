@@ -12,7 +12,43 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
 
-            ArrayResize();
+        }
+
+        static void MainDrawBar()
+        {
+            int health = 10;
+            int maxHealy = 25;
+
+            DrawBar(health, maxHealy, ConsoleColor.Green);
+            DrawBar(health, maxHealy - 5, ConsoleColor.Green, 1);
+
+        }
+       
+        static void DrawBar(int value, int maxValue, ConsoleColor color, int position = 0)
+        {
+            ConsoleColor defaultleColor = Console.BackgroundColor;
+
+            string bar = "";
+
+            for (int i = 0; i < value; i++)
+            {
+                bar += " ";
+            }
+
+            Console.SetCursorPosition(0, position);
+            Console.Write('[');
+            Console.BackgroundColor = color;
+            Console.Write(bar);
+            Console.BackgroundColor = defaultleColor;
+
+            bar = "";
+
+            for (int i = value; i < maxValue; i++)
+            {
+                bar += " ";
+            }
+            Console.Write(bar);
+            Console.Write(']');
 
         }
 

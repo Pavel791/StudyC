@@ -1,0 +1,8 @@
+C:\Project С#\Second P\PackMan\PackMan\bin\Debug\PackMan.exe.config
+C:\Project С#\Second P\PackMan\PackMan\bin\Debug\PackMan.exe
+C:\Project С#\Second P\PackMan\PackMan\bin\Debug\PackMan.pdb
+C:\Project С#\Second P\PackMan\PackMan\obj\Debug\PackMan.csproj.AssemblyReference.cache
+C:\Project С#\Second P\PackMan\PackMan\obj\Debug\PackMan.csproj.SuggestedBindingRedirects.cache
+C:\Project С#\Second P\PackMan\PackMan\obj\Debug\PackMan.csproj.CoreCompileInputs.cache
+C:\Project С#\Second P\PackMan\PackMan\obj\Debug\PackMan.exe
+C:\Project С#\Second P\PackMan\PackMan\obj\Debug\PackMan.pdb
