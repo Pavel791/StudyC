@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,7 +12,77 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
+            WarkWithList();
+        }
 
+        static void WarkWithList()
+        {
+            List<int> numbers = new List<int>(); 
+
+            numbers.Add(1);
+            numbers.Add(2);
+            numbers.Add(3);
+            numbers.Add(4);
+            numbers.Add(5);
+
+            numbers.AddRange(new int[] { 1, 3, 4, 7, 8 });
+
+
+            numbers.Remove(5);      // удалили первое                   
+            numbers.RemoveAt(0);    // Удалили элемент по индексу.
+
+            foreach (int number in numbers) 
+            {
+                Console.WriteLine(number);
+            }
+
+            Console.WriteLine($"число {numbers[3]} находится на индаксе {numbers.IndexOf(numbers[3])}" ) ;
+
+
+            /////////////////////////////////////////////////////////////////////////////////////////////
+            
+            Queue<string> patients = new Queue<string>();   // Очередность по принципу FIFO
+            patients.Enqueue("Vasa");                       // добавляем в очередь 
+            patients.Enqueue("Vasnessa");
+            patients.Enqueue("Vasika");
+            patients.Enqueue("Ira");
+            patients.Enqueue("Mira");
+
+            Console.WriteLine(patients.Dequeue());          // убираем из очереди и получаем элемент
+            Console.WriteLine(patients.Peek());             // получаем первый элемент в очереди
+            Console.WriteLine(patients.Dequeue());
+
+            /////////////////////////////////////////////////////////////////////////////////////////////
+
+            Stack<string> patientsShort = new Stack<string>();   // Очередность по принципу LIFO
+            patientsShort.Push("Vasa");                          // добавляем в стек 
+            patientsShort.Push("Vasnessa");
+            patientsShort.Push("Vasika");
+          
+
+            Console.WriteLine(patientsShort.Pop());             // убираем из очереди и получаем элемент
+            Console.WriteLine(patientsShort.Peek());            // получаем первый элемент в очереди
+            Console.WriteLine(patientsShort.Pop());
+
+            /////////////////////////////////////////////////////////////////////////////////////////////
+
+            Dictionary<string, string> countriesCapitals = new Dictionary<string, string>();   // Структура / словрь
+            countriesCapitals.Add("Australia", "Camberra");                         // добавляем в стек 
+            countriesCapitals.Add("Russia", "Moskow");
+            countriesCapitals.Add("China", "Pikin");
+
+
+            if (countriesCapitals.ContainsKey("Australia"))         // проверяем что ключ есть
+            {
+                Console.WriteLine(countriesCapitals["Australia"]);
+                countriesCapitals.Remove("Australia");
+            }
+
+            foreach (var country in countriesCapitals)
+            {
+                Console.WriteLine($"Countru: {country.Key} - Capital: {country.Value}");
+            }
+       
         }
 
         static void MainDrawBar()
